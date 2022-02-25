@@ -18,7 +18,9 @@ option = st.selectbox(
 'You selected: ', option
 
 
-st.file_uploader(label, type=None)
+st.file_uploader(label, type=None, accept_multiple_files=False, 
+                 key=None, help=None, on_change=None, args=None, 
+                 kwargs=None, disabled=False)
 
 # Add a selectbox to the sidebar:
 add_selectbox = st.sidebar.selectbox(
