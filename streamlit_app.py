@@ -2,7 +2,7 @@
 import streamlit as st
 import pandas as pd
 from PIL import Image
-image = Image.open('sunrise.jpg')
+image = Image.open('rg_logo.jpg')
 
 # Title
 st.header("RadioGraphics Reviewer Article Matching")
