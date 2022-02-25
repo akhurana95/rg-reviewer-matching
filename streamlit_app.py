@@ -12,7 +12,7 @@ df = pd.DataFrame({
     })
 
 option = st.selectbox(
-    'Which number do you like best?',
+    'Which speciality would you like to select?',
      df['first column'])
 
 'You selected: ', option
