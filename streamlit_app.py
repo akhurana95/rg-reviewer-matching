@@ -10,7 +10,7 @@ st.header("RadioGraphics Reviewer Article Matching")
 
 
 df = pd.DataFrame({
-    'first column': ['Informatics', 'Abdominal', 'Neuroradiology'],
+    'first column': ['Informatics', 'Abdominal', 'Neuroradiology', 'Thoracic'],
     'second column': [10, 20, 30, 40]
     })
 
