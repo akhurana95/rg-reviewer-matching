@@ -77,7 +77,7 @@ if st.button("Submit"):
     st.text(f"This instance is a submission button")
     
     
- 
+csv = 'hello'
 st.download_button(
      label="Download data as CSV",
      data=csv,
