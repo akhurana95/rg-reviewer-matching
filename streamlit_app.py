@@ -45,22 +45,22 @@ if uploaded_file is not None:
 #      st.write(string_data)
 
      # Can be used wherever a "file-like" object is accepted:
-     dataframe = pd.read_csv(uploaded_file)
-     st.write(dataframe)
+    dataframe = pd.read_csv(uploaded_file)
+    st.write(dataframe)
     
-     col1, col2, col3 = st.columns(3)
-         with col1:
-             article_column = st.selectbox(
-                 'Which column contains the Article Titles?',
-                  df.columns)
-         with col2:
-             institution_columm = st.selectbox(
-                 'Which column contains the Article Institutions?',
-                  df.columns)
-         with col3:
-             category_column = st.selectbox(
-                 'Which column contains the Article Categories?',
-                  df.columns)
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        article_column = st.selectbox(
+            'Which column contains the Article Titles?',
+            df.columns)
+    with col2:
+        institution_columm = st.selectbox(
+            'Which column contains the Article Institutions?',
+            df.columns)
+    with col3:
+        category_column = st.selectbox(
+            'Which column contains the Article Categories?',
+            df.columns)
 
 
 # # Add a selectbox to the sidebar:
