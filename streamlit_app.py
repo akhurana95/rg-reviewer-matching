@@ -26,6 +26,16 @@ df = pd.read_csv('RSNAInformaticsExhibits.csv')
 df = df[['TITLE','Institution','Classification']].head(5)
 st.table(df)
 
+article_column = st.selectbox(
+    'Which column contains the Article Titles?',
+     df.columns)
+institution_columm = st.selectbox(
+    'Which column contains the Article Institutions?',
+     df.columns)
+category_column = st.selectbox(
+    'Which column contains the Article Categories?',
+     df.columns)
+
 
 uploaded_file = st.file_uploader("Choose a file")
 if uploaded_file is not None:
