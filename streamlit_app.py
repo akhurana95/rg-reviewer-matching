@@ -23,7 +23,7 @@ option = st.selectbox(
 
 
 df = pd.read_csv('RSNAInformaticsExhibits.csv')
-df = df[['TITLE','Institution','Classification'].head(5)
+df = df[['TITLE','Institution','Classification']].head(5)
 st.table(df)
 
 
