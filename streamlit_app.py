@@ -44,6 +44,8 @@ if uploaded_file is not None:
      # Can be used wherever a "file-like" object is accepted:
      dataframe = pd.read_csv(uploaded_file)
      st.write(dataframe)
+    st.dataframe(df)  # Same as st.write(df)
+
 
 # # Add a selectbox to the sidebar:
 # add_selectbox = st.sidebar.selectbox(
