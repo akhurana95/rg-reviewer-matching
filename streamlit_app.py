@@ -21,6 +21,13 @@ option = st.selectbox(
 'You selected: ', option
 
 
+df = pd.DataFrame(
+    np.random.randn(10, 5),
+    columns=('col %d' % i for i in range(5)))
+
+st.table(df)
+
+
 uploaded_file = st.file_uploader("Choose a file")
 if uploaded_file is not None:
      # To read file as bytes:
