@@ -79,14 +79,16 @@ if uploaded_file is not None:
 # )
 
 
-# Input bar 1
-height = st.number_input("Enter Height")
+st.header('Step 1: Choose your RG Specialty')
+st.subheader('Here are your reviewers that have filled out their topic preferences.')
 
-# Input bar 2
-weight = st.number_input("Enter Weight")
+st.header('Step 2: Choose your Article Matching Parameters')
+st.subheader('How many times should an article be reviewed?')
 
-# Dropdown input
-eyes = st.selectbox("Select Eye Colour", ("Blue", "Brown"))
+st.header('Step 3: Upload your CSV file containing your exhibit titles and information')
+st.subheader('Make sure to choose which columns correspond to the following variables')
+
+
 
 # If button is pressed
 if st.button("Submit"):
