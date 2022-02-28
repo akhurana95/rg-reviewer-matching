@@ -38,7 +38,7 @@ st.header('Step 3: Make sure all your panelists have filled out their topic pref
 st.subheader('Here are your reviewers that have filled out their topic preferences.')
 
 df1 = pd.read_csv('https://docs.google.com/spreadsheets/d/1GP8k9J2cSPhCmmX7774bqxW7uKeODjc3zw3D2Cai1HQ/export?format=csv&gid=51107142')
-st.write(df[df1['Reviewer Name'] == option]['Reviewer Name'])
+st.write(df1[df1['Reviewer Name'] == option]['Reviewer Name'])
 
 
 
