@@ -27,7 +27,7 @@ df = df[['TITLE','Institution','Classification']].head(5)
 st.table(df)
 
 
-df1 = pd.read_csv('https://docs.google.com/spreadsheets/d/1GP8k9J2cSPhCmmX7774bqxW7uKeODjc3zw3D2Cai1HQ/edit#gid=51107142')
+df1 = pd.read_csv('https://docs.google.com/spreadsheets/d/1GP8k9J2cSPhCmmX7774bqxW7uKeODjc3zw3D2Cai1HQ/export?format=csv&gid=51107142')
 st.table(df1)
 
 
