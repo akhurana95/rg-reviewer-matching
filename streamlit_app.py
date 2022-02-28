@@ -10,6 +10,10 @@ st.image(image)
 st.header("RadioGraphics Reviewer Article Matching")
 
 
+
+st.header('Step 1: Choose your RG Specialty')
+st.subheader('Here are your reviewers that have filled out their topic preferences.')
+
 df = pd.DataFrame({
     'first column': ['Informatics', 'Abdominal', 'Neuroradiology', 'Thoracic'],
     'second column': [10, 20, 30, 40]
@@ -22,13 +26,25 @@ option = st.selectbox(
 'You selected: ', option
 
 
+
+st.header('Step 2: Choose your Article Matching Parameters')
+st.subheader('How many times should an article be reviewed?')
+
+st.header('Step 3: Upload your CSV file containing your exhibit titles and information')
+
 df = pd.read_csv('RSNAInformaticsExhibits.csv')
 df = df[['TITLE','Institution','Classification']].head(5)
 st.table(df)
 
+st.subheader('Make sure to choose which columns correspond to the following variables')
+
+
+
+st.header('Step 4: Make sure all your panelists have filled out their topic preferences')
+st.subheader('Here are the reviewers so far')
 
 df1 = pd.read_csv('https://docs.google.com/spreadsheets/d/1GP8k9J2cSPhCmmX7774bqxW7uKeODjc3zw3D2Cai1HQ/export?format=csv&gid=51107142')
-st.table(df1)
+st.write(df1['Reviewer Name'])
 
 
 
@@ -79,14 +95,9 @@ if uploaded_file is not None:
 # )
 
 
-st.header('Step 1: Choose your RG Specialty')
-st.subheader('Here are your reviewers that have filled out their topic preferences.')
 
-st.header('Step 2: Choose your Article Matching Parameters')
-st.subheader('How many times should an article be reviewed?')
 
-st.header('Step 3: Upload your CSV file containing your exhibit titles and information')
-st.subheader('Make sure to choose which columns correspond to the following variables')
+
 
 
 
