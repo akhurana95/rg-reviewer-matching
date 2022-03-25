@@ -88,11 +88,11 @@ if uploaded_file is not None:
 #     ('Email', 'Home phone', 'Mobile phone')
 # )
 
-# # Add a slider to the sidebar:
-# add_slider = st.sidebar.slider(
-#     'Select a range of values',
-#     0.0, 100.0, (25.0, 75.0)
-# )
+# Add a slider to the sidebar:
+add_slider = st.sidebar.slider(
+    'How many times should an exhibit be reviewed?',
+    0.0, 10.0, (25.0, 75.0)
+)
 
 
 
