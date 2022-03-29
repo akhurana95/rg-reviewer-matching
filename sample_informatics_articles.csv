@@ -1,0 +1,77 @@
+ID,EXHIBIT SPACE,TITLE,Institution,Classification,ClassID,Institution ID,Conflict of Interest,coi_dict
+1,BREE-72,Artificial Intelligence In Breast Imaging: What&#8217;s Going On In Real World?,AC Camargo Cancer Center,AI,1,1,,
+2,BREE-79,Application Of Deep Learning To Establish Diagnostic Model Of Breast Lesions Usingdynamic Videograyscaleultrasound Imaging,Peking University Cancer Hospital and Institute,AI,1,38,,
+3,BREE-83,"AI For Breast Imagers: Past, Present, And Future",USC Keck School of Medicine,AI,1,62,1,103
+4,BREE-98,Radiomics In Breast Imaging For Noob,University of Malaya,Image segmentation and processing,3,54,,
+5,CAEE-55,Clinical Application Of Full-color Bionic 3D Printing In Transcatheter Aortic Valve Implantation,The 1st Affiliated Hospital of Zhengzhou University,"Visualization, 3DP, AR, VR",11,45,,
+6,CHEE-112,Attention Mechanism And Weakly Supervised Learning Solve Complicated Problems: Principles And Application To IIP Classification,Fujita Health University,AI,1,8,,
+7,CHEE-117,Deep Learning Reconstruction In Chest CT - Issues Considered From The Dose Reduction And Image Quality In Clinical Cases -,Fukushima medical university Hospital,AI,1,9,,
+8,CHEE-123-HC,Mechanism Of AIs In COVID-19 CAD And Techniques To Improve AI Performance,Nagoya University,AI,1,30,,
+9,CHEE-27,Ultra-low-dose Lung CT For COVID-19 Viral Pneumonia Using Deep Learning Reconstruction.,Hakodate Goryoukaku Hospital,AI,1,13,,
+10,CHEE-30,The Application Value of 3D Artifact Intelligence Automatic Positioning in Chest CT Imaging,GE China Healthcare,AI,1,10,,
+11,CHEE-57,Estimating Respiratory Volume By Measuring Thoracic Volume - Analysis Performed Using Respiratory Dynamics CT Data -,Ohara Memorial Foundation General Foundation,Image segmentation and processing,3,36,,
+12,CHEE-64,Micro CT Assisted Cross-modality Super-resolution - Toward Observing Micrometer-scale Anatomical Structure From Clinical CT Utilizing AI,Nagoya University,AI,1,30,,
+13,CHEE-74,Radiogenomics In Lung Cancer: New Approaches Toward Diagnosis And Treatment In The Precision Medicine Era,Hospital Sirio-Libanes,Image segmentation and processing,3,16,,
+14,GIEE-61,Artificial Intelligence In Crohn&#8217;s Disease Imaging: From Concept To Clinical Application,University of Michigan,AI,1,55,,
+15,GIEE-65,Radiogenomics In Hepatobiliary Cancers,Mayo Clinic Arizona,Image segmentation and processing,3,25,1,29
+16,GUEE-31,Structured Reporting Of Metastasis Reporting And Data System For Prostate Cancer (Meta-RADS-P): Integration With AI,Peking University First Hospital,"Reporting, Report Analysis, and Follow-up",6,38,,
+17,HNEE-28,Low-dose Head CT Using Deep Learning Reconstruction: Comparison Of Gray-white Matter Differentiation With Normal-dose Head CT,Ohara General Hospital,AI,1,36,,
+18,HNEE-78-HC,Application Of 3d Printing Personalized Fenestration Surgical Guide Plate In Maxillary Bone Osteopenia,The First Affiliated Hospital of Zhengzhou University,"Visualization, 3DP, AR, VR",11,46,,
+19,INEE-1,Volume Sweep Imaging: A New Horizon In Teleradiology,University of Rochester,Operations & practice improvement,4,59,,
+20,INEE-10,Real World Evidence: What Do Radiologist Need To Know?,Guys and St Thomas Hospital,Research,7,12,,
+21,INEE-11,Overcoming Data Shift: The Challenge To Translating AI To Clinical Practice,University of Rochester,Operations & practice improvement,4,59,,
+22,INEE-12,Outsmarting AI: What Role Can The Radiologist Play In The Making And Deployment Of Artificial Intelligence Applications,University Hospitals Cleveland Medical Center,Operations & practice improvement,4,50,,
+23,INEE-13,Structured Reporting And Natural Language Processing: A Successful Marriage,University Of Pisa Radiology,"Reporting, Report Analysis, and Follow-up",6,58,,
+24,INEE-14,Establishing A Hospital-based Quality Control System For 3D Printed Anatomic Models,Montefiore Medical Center,"Visualization, 3DP, AR, VR",11,29,,
+25,INEE-15,Onboarding To The RSNA-ACR 3D Printing Registry,MD Anderson Cancer Center,"Visualization, 3DP, AR, VR",11,27,1,31
+26,INEE-16,Establishing A 3D Imaging Laboratory Within A Publicly-funded Academic Clinical Center In A Low-resource Country,Hospital Pereira Rossell,Operations & practice improvement,4,15,,
+27,INEE-17,Not So Smart - What To Consider If You Think The AI Has Made The Wrong Call,Yale New Haven Hospital,Operations & practice improvement,4,64,1,112
+28,INEE-18,RadLex For Semantics And Interoperability In Imaging Workflows,University of Pennsylvania,"Standards, Coding, Ontologies",9,57,1,93
+29,INEE-19,Basic Python For Advanced Radiologists,UNIFESP,Research,7,47,,
+30,INEE-2,Applications Of Artificial Intelligence In Cardiac MRI,University of California San Diego,AI,1,53,1,67
+31,INEE-20,Radiomic For Dummies : Image Texture Analysis And Much More &#8943; ,Institut Gustave Roussy,Image segmentation and processing,3,18,,
+32,INEE-21,3D Printing And Augmented Reality (mixed Reality): A Combination Of Two Promises Technologies For Image-guided Neurosurgery.,NEXT Laboratory - PUC - RJ,"Visualization, 3DP, AR, VR",11,34,,
+33,INEE-22,Applications Of Domain-Inspired Radiomics And Deep Learning In Neuroradiology,Newark Beth Israel Medical Center,Image segmentation and processing,3,33,,
+34,INEE-23,3d Printing In Gynecological Microanatomy And Pathology Using Microtomography,NEXT Laboratory - PUC - RJ,"Visualization, 3DP, AR, VR",11,34,,
+35,INEE-24,Clinical Implementation Of Deep Learning Models In A Large Multicenter Mammography Practice: A Practical Guide To Establish Robust Infrastructure For Continuous Learning,Massachusetts General Hospital,Operations & practice improvement,4,2,1,6
+36,INEE-25,Extended Reality And Arterial Intelligence For Precision Telemedicine And Spatial Education,Teikyo University Okinaga Research Institute,Operations & practice improvement,4,44,,
+37,INEE-26,A New Jungle Is Sprouting. It&#8217;S Not Entirely Radiologist Friendly. How AI Algorithms Mark-up Findings On Chest Radiographs?,Massachusetts General Hospital,AI,1,2,1,6
+38,INEE-27,Quality Management Considerations For Hospital-based Anatomical 3D Printing,Mayo Clinic,"Visualization, 3DP, AR, VR",11,25,1,29
+39,INEE-28,"Strengths, Weaknesses, Opportunities, And Threats (swot) Analysis Of Ai Algorithms In Abdominal Radiology",University of Alabama Birmingham,Operations & practice improvement,4,51,1,73
+40,INEE-29,"3D Slicer: An Open Source Software Platform For Medical Image Analysis, 3D Visualization, And Image-Guided Therapy",Brigham & Womens Hospital,"Visualization, 3DP, AR, VR",11,2,1,6
+41,INEE-29-HC,Use Of 3d Printed Patient Specific Vascular Phantoms To Optimize The Neuro-interventionalist Mechanical Thrombectomy Approaches,University of South Florida,"Visualization, 3DP, AR, VR",11,60,,
+42,INEE-3,Undergraduate Medical Student Radiology Teaching During Covid-19: What Has Changed And What Will Continue Post-pandemic?,Beth Israel Deaconess Medical Centre,Presentation & Teaching,5,2,1,6
+43,INEE-30-HC,"Move Away HIPAA And GDPR, Here Comes CrypTFlow - Secure AI Inferencing Without Data Sharing","CARING, MAHAJAN IMAGING",Security,8,5,,
+44,INEE-31,Continual Learning For Diagnostic Radiology,University Hospital Cologne,Presentation & Teaching,5,49,,
+45,INEE-32-HC,Collaborative Learning Approaches For Privacy Preserving Deep Learning Using Multi-institutional Data,Martinos Center for Biomedical Imaging,AI,1,23,,
+46,INEE-33-HC,Image Quality And Higher Resolution Of Latest Monitor/TV Screens. Essential Toolkit For Radiologist In Image Preparation For Scientific Presentations.,Laquila University,Presentation & Teaching,5,22,,
+47,INEE-34-CS,Chest Cinematic Rendering: An Interactive Universal Application Approach To Anatomy Education,Northwestern University,Presentation & Teaching,5,35,1,42
+48,INEE-36-CS,Using The Open Health Imaging Foundation (OHIF) Framework To Build Web-based Imaging Applications,Radical Imaging,"Visualization, 3DP, AR, VR",11,40,,
+49,INEE-37-CS,NCI Imaging Data Commons: Status Update,Brigham & Womens Hospital,Research,7,2,1,6
+50,INEE-38-CS,Training Visuospatial And Visuomotor Skills For Ultrasound Imaging With A Game,Flensburg University of Applied Sciences,"UI, UX, Productivity",10,7,,
+51,INEE-39-CS,: The Federated Tumor Segmentation Initiative: The First Real-world Large-scale Federation Focusing On Neurooncology ,University of Pennsylvania,AI,1,57,1,93
+52,INEE-4,Radiomics Analysis Using The Image Biomarker Standardization Initiative (IBSI): Benchmarks And Guidelines,National Center For Tumour Diseases,"Standards, Coding, Ontologies",9,32,,
+53,INEE-40-CS,MIDRC: Medical Imaging and Data Resource Center,University of Washington,Research,7,61,1,
+54,INEE-5,Users' Feedback Vs. Apple Analytics Statistics: A Challenge Ahead For Medical And Educational Ios Developers ,Johns Hopkins University,"UI, UX, Productivity",10,20,1,25
+55,INEE-6,Voice-triggered Macros - A Radiologist-friendly Method Of Increasing Productivity And Reducing Burnout ,SUNY Downstate Medical Center,"Reporting, Report Analysis, and Follow-up",6,43,,
+56,INEE-7,Deep Learning Reconstructions: Diagnostic Impact,UT MD Anderson Cancer Center,AI,1,63,1,31
+57,INEE-8,How Should Radiologists Use AI To Fight COVID-19 Pneumonia?,Nagoya Univ Graduate School of Medicine,Operations & practice improvement,4,30,,
+58,INEE-9,Validation System For Mammography Using Deep Learning: Guarantee Of Appropriate Technique,Gunma Pref College of Health Sciences,AI,1,11,,
+59,IREE-14,Alert The PERT: Leveraging Artificial Intelligence To Optimize Diagnosis And Management Of Acute Pulmonary Embolism Within A Large Urban Health System,Icahn School of Med At Mount Sinai,Operations & practice improvement,4,17,1,37
+60,IREE-63,Real-time 3d Modeling And Volumetric Analysis Metrics From Pre- And Intra-procedural Images To Guide Tumor Ablations,Rhode Island Hospital,"Visualization, 3DP, AR, VR",11,41,,
+61,MKEE-188,Deep Learning In Spine Health Assessment,University of Pennsylvania,AI,1,57,1,93
+62,MKEE-67,How To Obtain Additional Bone Mineral Density Information From The Low-dose Chest CT Examination,First Affiliated Hosp of Xian Jiaotong Univ,Image segmentation and processing,3,6,,
+63,MKEE-69,Opportunistic Assessment Of Sarcopenia By Ct And Mri,Hospital Israelita Albert Einstein,Image segmentation and processing,3,14,,
+64,MSEE-21,"Emergence Of AI In Emergency Radiology: Applications, Approaches, Benefits &#38; Challenges",University of British Columbia,Operations & practice improvement,4,52,,
+65,MSEE-43,"Optimising 3D Printed Physical Models From Imaging: Learning Points, Tips &#38; Tricks",Unknown,"Visualization, 3DP, AR, VR",11,78,,
+66,MSEE-99,Artificial Intelligence (AI) In The Emergency Department: Incorporating Into The Work Flow And Clinical Applications,Lahey hospital and medical center,Operations & practice improvement,4,21,1,6
+67,NPMEE-32,Why Has AI Not Replaced Radiologists?,Mayo Clinic,Operations & practice improvement,4,25,1,29
+68,NPMEE-41,Programming Knowledge For The Radiology Resident: A Tool To Improve The Workflow,Santa Casa de Misericordia de Sao Paulo,Operations & practice improvement,4,42,,
+69,NREE-152,Tips And Tricks For Application Development Using Pretrained Medical AI Models.,Fujita Health University,AI,1,8,,
+70,NREE-2,Voxel-based Brain Tumor Segmentation: 10 Steps Towards Volumetric Accuracy,Universidade Federal Fluminense,Image segmentation and processing,3,48,,
+71,PDEE-11,Current And Emerging Applications Of Computer-assisted Reporting And Decision Support (CAR/DS) Tools In Pediatric Radiology,Massachusetts General Hospital,"Reporting, Report Analysis, and Follow-up",6,2,1,6
+72,PHEE-10,"Various Applications Of Deep Learning-based Reconstruction At CT: Denoise, Dual-energy CT, And Super-resolution",Canon Medical Systems Corporation,AI,1,4,,
+73,PHEE-17,Impact Of Deep Learning-based Adaptive Noise Reduction For MR Imaging.,"International University of Health and Welfare, Mita Hospital",AI,1,19,,
+74,PHEE-2,Characteristics Of Deep Learning Reconstruction: Application In Clinical Practice,"Memorial Heart Center, Iwate Medical University",AI,1,28,,
+75,ROEE-10-HC,The Application Of 3D Printing Personalized Surgical Guide Plate In Gynecologic Brachytherapy,The First Affiliated Hospital of Zhengzhou University,"Visualization, 3DP, AR, VR",11,46,,
+76,ROEE-3,Radiomics And Artificial Intelligence To Predict Response To Chemotherapy In Primary Brain Tumors,University of Mississippi Medical Center,Image segmentation and processing,3,56,,
