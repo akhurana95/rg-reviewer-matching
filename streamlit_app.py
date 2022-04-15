@@ -19,8 +19,11 @@ st.header("RadioGraphics Reviewer Article Matching")
 st.header('Step 1: Choose your RG Specialty')
 
 df = pd.DataFrame({
-    'first column': ['Informatics', 'Abdominal', 'Neuroradiology', 'Thoracic'],
-    'second column': [10, 20, 30, 40]
+    'first column': ['Abdominal Imaging', 'Breast Imaging', 'Cardiac Imaging', 'Chest Imaging', 
+    'Emergency Radiology', 'Gastrointestinal Imaging', 'Genitourinary Imaging', 'Informatics',
+    'Multisystem', 'Musculoskeletal', 'Neuroradiology', 'Nuclear Medicine',
+    'Pediatric Imaging', 'Physics', 'Quality Improvement', 'Radiation Oncology',
+    'Resident and Fellow Education', 'Ultrasound', 'Vascular and Interventional Radiology', "Women's Imaging"]
     })
 
 option = st.selectbox(
@@ -30,12 +33,16 @@ option = st.selectbox(
 'You selected: ', option
 
 
-st.header('Step 2: Upload two CSV files (one for articles, one for panelists). Both files should have a column called "coi_dict" to ensure we do not match same institutions')
+st.header('Step 2: Upload your Article File')
+"The file must have a column labeled 'coi_dict' if we want to ensure no conflict of interest in matching"
 uploaded_file_articles = st.file_uploader("Upload your Articles CSV")
 if uploaded_file_articles is not None: 
     uploaded_file_articles.seek(0)
     article_df = pd.read_csv(uploaded_file_articles)
     st.write(article_df)
+
+st.header('Step 3: Upload your Reviewer File')
+"The file must have a column labeled 'coi_dict' if we want to ensure no conflict of interest in matching"
 uploaded_file_panelists = st.file_uploader("Upload your Panelists CSV")
 if uploaded_file_panelists is not None: 
     uploaded_file_panelists.seek(0)
@@ -44,6 +51,7 @@ if uploaded_file_panelists is not None:
 # dataframe = pd.read_csv(uploaded_file_articles)
 # st.write(dataframe)
 
+st.header('Step 4: Choose how many times an article must be reviewed:')
 number_of_reviews = st.slider("How many times should an article be reviewed?", 0, 5)
 
 # If button is pressed
