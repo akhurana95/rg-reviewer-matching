@@ -12,7 +12,7 @@ image = Image.open('rg_logo.jpg')
 st.image(image)
 
 # Title
-st.header("RadioGraphics Reviewer Article Matching")
+st.header("RadioGraphics Panelist-Abstract Matching")
 
 
 # have the user choose which speciality they are performing the match for
@@ -33,9 +33,9 @@ option = st.selectbox(
 'You selected: ', option
 
 
-st.header('Step 2: Upload your Article File')
+st.header('Step 2: Upload your Abstract File')
 "The file must have a column labeled 'coi_dict' if we want to ensure no conflict of interest in matching"
-uploaded_file_articles = st.file_uploader("Upload your Articles CSV")
+uploaded_file_articles = st.file_uploader("Upload your Abstracts CSV")
 if uploaded_file_articles is not None: 
     uploaded_file_articles.seek(0)
     article_df = pd.read_csv(uploaded_file_articles)
@@ -51,17 +51,17 @@ if uploaded_file_panelists is not None:
 # dataframe = pd.read_csv(uploaded_file_articles)
 # st.write(dataframe)
 
-st.header('Step 4: Choose how many times an article must be reviewed:')
-number_of_reviews = st.slider("How many times should an article be reviewed?", 0, 5)
+st.header('Step 4: Choose how many times an abstract must be reviewed:')
+number_of_reviews = st.slider("How many times should an abstract be reviewed?", 0, 5)
 
 # If button is pressed
-if st.checkbox("Match Articles to Panelists"):
+if st.checkbox("Match Abstracts to Panelists"):
 
     # article_df = pd.read_csv(uploaded_file_articles)
     # panelist_df = pd.read_csv(uploaded_file_panelists)
     matched_df = master_rg_match(option, article_df, panelist_df, number_of_reviews)
     
-    st.header("Articles have been matched with Panelists!")
+    st.header("Abstracts have been matched with Panelists!")
 
     #create new version of dataframe
     new_matched_df = {}
@@ -76,7 +76,7 @@ if st.checkbox("Match Articles to Panelists"):
     st.dataframe(matched_df)
     st.dataframe(pd.Series(new_matched_df).to_frame())
 
-    if st.button("How many articles does each reviewer have to review?"):
+    if st.button("How many abstracts does each reviewer have to review?"):
         from functools import reduce
         dfs = [matched_df[col].value_counts().reset_index() for col in matched_df.columns]
                 # matched_df[1].value_counts().reset_index(),
